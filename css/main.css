@@ -15,12 +15,16 @@ html, body { height: 100%; }
 body {
   background-color: #FFF;
   font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
-  text-align: center;
+  padding-left: 16px;
+
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+section.content, section.sidebar {
+  padding-top: 16px;
+}
+
+/*h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; }*/
 
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
@@ -49,6 +53,29 @@ ul.posts span {
   font-size: 80%;
 }
 
+.sidebar {
+  display: block;
+  float: left;
+  width: 20%;
+  height: 100%;
+}
+
+.content {
+  display: block;
+}
+
+ul.social-links li {
+  list-style: none;
+  display: inline;
+}
+
+ul.navigation {
+  list-style: none;
+}
+
+
+
+
 /*****************************************************************************/
 /*
 /* Site
@@ -57,7 +84,7 @@ ul.posts span {
 
 .site {
   font-size: 115%;
-  text-align: justify;
+  /*text-align: justify;*/
   width: 42em;
   margin: 3em auto 2em;
   line-height: 1.5em;
