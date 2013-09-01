@@ -1,4 +1,7 @@
 name: Iheanyi Ekechukwu
 description: Iheanyi is a Senior studying Computer Science and Graphic Design at the University of Notre Dame.
+
+url: “http://localhost:4000”
 markdown: redcarpet
 pygments: true
+permalink: pretty

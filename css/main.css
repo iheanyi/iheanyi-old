@@ -6,27 +6,38 @@
 
 /* Global Reset */
 * {
+  font: Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
-html, body { height: 100%; }
+html, body { 
+  height: 100%;
+}
 
 body {
   background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
+  font: Helvetica, Arial, sans-serif;
   padding-left: 16px;
+  margin: 0 auto 10vh; /* the bottom margin is the negative value of the footer's height */
 
+
+}
+
+.wrapper {
+  height:100%;
+  padding-top:16px;
 }
 
 section.content, section.sidebar {
-  padding-top: 16px;
+  height: 100%;
 }
 
-/*h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }*/
+h1, h2, h3, h4, h5, h6 {
+  font: Helvetica, Arial, sans-serif;
+}
 
-h1 { margin-bottom: 1em; }
+/*h1 { margin-bottom: 1em; }*/
 p { margin: 1em 0; }
 
 a         { color: #00a; }
@@ -53,29 +64,6 @@ ul.posts span {
   font-size: 80%;
 }
 
-.sidebar {
-  display: block;
-  float: left;
-  width: 20%;
-  height: 100%;
-}
-
-.content {
-  display: block;
-}
-
-ul.social-links li {
-  list-style: none;
-  display: inline;
-}
-
-ul.navigation {
-  list-style: none;
-}
-
-
-
-
 /*****************************************************************************/
 /*
 /* Site
@@ -83,7 +71,7 @@ ul.navigation {
 /*****************************************************************************/
 
 .site {
-  font-size: 115%;
+  font-size: 100%;
   /*text-align: justify;*/
   width: 42em;
   margin: 3em auto 2em;
@@ -147,6 +135,43 @@ ul.navigation {
 .site .footer .rss img {
   border: 0;
 }
+
+/*****************************************************************************/
+/*
+/* Custom
+/*
+/*****************************************************************************/
+
+.sidebar {
+  display: block;
+  float: left;
+  width: 20%;
+  height: auto;
+}
+
+.content {
+  display: block;
+}
+
+ul.social-links li {
+  list-style: none;
+  display: inline;
+  padding-right: 4px;
+}
+
+ul.social-links {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+ul.navigation {
+  list-style: none;
+}
+
+ul.navigation li {
+  padding-bottom: 4px;
+}
+
 
 /*****************************************************************************/
 /*
