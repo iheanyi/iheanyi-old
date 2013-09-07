@@ -3,6 +3,66 @@ layout: default
 title: Iheanyi Ekechukwu
 ---
 
+
+      <section id="cover">
+      	<div class="slide">
+			<div class="title">
+				<h1>// Iheanyi Ekechukwu</h1>
+			</div>
+
+      	</div>
+
+      </section>
+
+      <div class="content">
+          <section id="about" data-scroll-index="01">
+            <div class="slide white">
+				<div class="intro">
+					<h2>About</h2>
+					<h3>My name is Iheanyi Ekechukwu! I am a Software Developer and Web Designer currently living in Notre Dame, Indiana!</h3>
+				</div>
+
+				<div class="info">
+						<ul>
+							<li><p><strong>Profile</strong> Originally from Myrtle Beach, South Carolina, but currently in my Senior year at the University of Notre Dame, pursuing a dual-degree in Computer Science and Graphic Design.</p></li>
+
+							<li><p><strong>Recent Jobs</strong> I'm currently doing healthcare research and programming for <a href="#">iCeNSA</a>. In the Summer of 2013, I worked as a Software Developer Intern for IBM. I occasionally work as a freelance web designer.</a></li> 
+						</ul>
+				</div>
+            </div>
+          </section>
+
+          <section id="blog" data-scroll-index="01">
+            <div class="slide black">
+				<div class="intro">
+					<h2>Blog</h2>
+					<h3>I like to think out loud and write about my thoughts.</h3>
+				</div>
+
+				<div class="posts">
+					<ul>
+						{% for post in site.posts %}
+						<li class="post">
+							<div class="post-info">
+							<span class="small">{{post.date | date_to_string }}</span>
+							<h1>{{post.title}}</h1>
+							<span class="blurb">
+								Sunt cred forage occupy art party nisi. Ad mollit 90's, pork belly raw denim polaroid Thundercats ex commodo odio cliche Blue Bottle beard freegan tousled. Before they sold out mumblecore tempor, anim consequat irony biodiesel eu
+							</span>
+
+							</div>
+						</li>
+						{% endfor %}
+					</ul>
+
+				</div>
+
+
+            </div>
+          </section>
+      </div>
+
+
 <!--
 <div id="home">
   <h1>Blog Posts</h1>
@@ -12,16 +72,4 @@ title: Iheanyi Ekechukwu
     {% endfor %}
   </ul>
 </div>-->
-
-<h2>Hello there, I'm Iheanyi, but you can call me 'E'.</h2>
-
-<p>Senior Computer Science and Graphic Design student at the University of Notre Dame.</p>
-
-<p>Researcher and programmer for the <a href="http://www.icensa.com/">Interdisciplinary Center for Network Science & Applications</a>, Breaking Commissioner for <a href="http://www3.nd.edu/~pfresh/fam.php">Project Fresh</a>.</p>
-
-<p>Along with programming and user interface design, I also enjoy dancing and longboarding.</p>
-
-<p>Check me out on  <a href="http://www.github.com/iheanyi">GitHub</a>, <a href="">LinkedIn</a>, <a href="">Twitter</a>, <a href="">SoundCloud</a>, and <a href="">Last.FM</a>.</p>
-
-<p>Wanna talk? Just shoot me an <a href="mailto:iekechukwu@gmail.com">e-mail</a>.</p>
 

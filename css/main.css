@@ -1,3 +1,12 @@
+
+/***************************************/
+/*
+
+  Imports!
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600);
+
 /*****************************************************************************/
 /*
 /* Common
@@ -6,28 +15,31 @@
 
 /* Global Reset */
 * {
-  font: Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
+  text-rendering: optimizeLegibiilty;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
 }
 
-html, body { 
+html, body {
   height: 100%;
+}
+section {
+  display: block;
 }
 
 body {
   background-color: #FFF;
-  font: Helvetica, Arial, sans-serif;
-  padding-left: 16px;
-  margin: 0 auto 10vh; /* the bottom margin is the negative value of the footer's height */
-
-
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
-.wrapper {
+/*.wrapper {
   height:100%;
-  padding-top:16px;
-}
+  margin: 0 auto;
+  width: 960px;
+  padding:8px;
+}*/
 
 section.content, section.sidebar {
   height: 100%;
@@ -37,12 +49,119 @@ h1, h2, h3, h4, h5, h6 {
   font: Helvetica, Arial, sans-serif;
 }
 
-/*h1 { margin-bottom: 1em; }*/
-p { margin: 1em 0; }
+/*p { margin: 1em 0; }*/
 
-a         { color: #00a; }
+/*a         { color: #00a; }
 a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a:visited { color: #a0a; }*/
+
+.email {
+  width: auto;
+}
+
+section#cover {
+  display: block;
+  padding:0;
+  margin:0;
+  padding-top: 40%;
+  background-image: url("http://farm8.staticflickr.com/7238/7291401260_8fac131532_b.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+header {
+  padding: 16px;
+}
+
+.title {
+  height: 50%;
+  width: 50%;
+  margin: auto;
+  color: #fff;
+}
+
+.content {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.slide {
+  position: relative;
+  display: block;
+  padding: auto 16px;
+}
+
+.brand {
+}
+
+.pull-right {
+  float: right;
+  clear: left;
+  text-align: right;
+}
+
+ul.nav {
+  text-align: center;
+}
+
+.white {
+  background-color: #fff;
+  color: #000000;
+}
+
+.black {
+  background-color: #000;
+  color: #fff;
+}
+
+.info > ul, .posts > ul {
+  list-style-type: none;
+}
+
+.post {
+  min-width: 300px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #000;
+  text-align: left;
+  position: relative;
+  padding-bottom: 40px;
+}
+
+strong {
+  word-wrap: break-word;
+}
+
+/* NAVIGATION  */
+
+.pure-menu {
+    font-weight: lighter;
+}
+.pure-menu.pure-menu-fixed {
+    position: fixed;
+    padding: 16px;
+}
+.pure-menu.pure-menu-blackbg {
+    background: #222;
+}
+.pure-menu.pure-menu-blackbg, .pure-menu-heading:hover {
+    color: #efefef;
+}
+.pure-menu.pure-menu-blackbg a {
+    color: #fff;
+}
+.pure-menu.pure-menu-blackbg a:hover {
+    background: #666;
+}
+.pure-menu.pure-menu-blackbg .pure-menu-selected a {
+    background: #7E45D3;
+}
+.pure-menu.pure-menu-blackbg .pure-menu-selected a:hover {
+    color: #efefef;
+}
+
 
 /*****************************************************************************/
 /*
@@ -60,7 +179,7 @@ ul.posts li {
 
 ul.posts span {
   color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
+  /*font-family: Monaco, "Courier New", monospace;*/
   font-size: 80%;
 }
 
@@ -70,9 +189,9 @@ ul.posts span {
 /*
 /*****************************************************************************/
 
+/*
 .site {
   font-size: 100%;
-  /*text-align: justify;*/
   width: 42em;
   margin: 3em auto 2em;
   line-height: 1.5em;
@@ -134,7 +253,7 @@ ul.posts span {
 
 .site .footer .rss img {
   border: 0;
-}
+}*/
 
 /*****************************************************************************/
 /*
@@ -147,16 +266,19 @@ ul.posts span {
   float: left;
   width: 20%;
   height: auto;
+  text-align: right;
+  padding-right: 24px;
 }
 
-.content {
+/*.content {
   display: block;
-}
+  margin-left: 40px;
+}*/
 
 ul.social-links li {
   list-style: none;
   display: inline;
-  padding-right: 4px;
+  padding-right: 16px;
 }
 
 ul.social-links {
@@ -180,7 +302,7 @@ ul.navigation li {
 /*****************************************************************************/
 
 /* standard */
-.post pre {
+/*.post pre {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .4em;
@@ -198,10 +320,10 @@ ul.navigation li {
 
 .post pre code {
   border: none;
-}
+}*/
 
 /* terminal */
-.post pre.terminal {
+/*.post pre.terminal {
   border: 1px solid #000;
   background-color: #333;
   color: #FFF;
@@ -209,4 +331,4 @@ ul.navigation li {
 
 .post pre.terminal code {
   background-color: #333;
-}
+}*/

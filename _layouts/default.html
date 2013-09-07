@@ -12,43 +12,30 @@
         <link rel="stylesheet" href="/css/syntax.css">
 
         <!-- Custom CSS -->
+        <link rel="stylesheet" href="http:////cdnjs.cloudflare.com/ajax/libs/pure/0.2.1/pure-min.css">
         <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" href="http://yui.yahooapis.com/combo?pure/0.2.1/base-min.css&pure/0.2.1/grids-min.css&pure/0.2.1/buttons-min.css&pure/0.2.1/menus-min.css">
         <link rel="stylesheet" href="/css/main.css">
 
     </head>
-    <body>
+    <body data-scroll-index='00'> 
+      <header>
+          <nav class="pure-menu pure-menu-fixed pure-menu-open pure-menu-horizontal">
+            <a id="top" class="pure-menu-heading brand" data-scroll-goto='00'>Iheanyi Ekechukwu</a>
+            <ul class="nav">
+              <li><a data-scroll-nav='01'>About</a></li>
+              <li><a data-scrollnav='02'>Blog</a></li>
+              <li><a data-scroll-nav='03'>Projects</a></li>
+              <li><a data-scroll-nav='04'>Contact</a></li>
+              <li><a href="#">Résumé</a></li>
 
-      <div class="wrapper">
-      <section class="sidebar">
-      <h1>Iheanyi Ekechukwu</h1>
-      <ul class="social-links">
-        <li><i class="icon-github icon-2x"></i></li>
-        <li><i class="icon-linkedin-sign icon-2x"></i></li>
-        <li><i class="icon-envelope icon-2x"></i></li>
-        <li><i class="icon-twitter-sign icon-2x"></i></li>
-        <li><i class="icon-google-plus-sign icon-2x"></i></li>
-      </ul>
+              <li><a class="pure-button pull-right" href="mailto:iekechukwu@gmail.com">Hiring?</a></li>
+            </ul>
+          </nav>
 
-      <ul class="navigation">
-          <li><a href="index.html">About</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="#">Résumé</a></li>
-      </ul>
+      </header>
 
-      </section>
-
-      <section class="content">
-        {{content}}</p>
-      </section>
-
-      <hr>
-
-      <footer>
-        <p>&copy; Iheanyi Ekechukwu 2013, <a href="https://creativecommons.org/licenses/by-sa/3.0/us/"> Creative Commons Attribution-ShareAlike 3.0 License</a>.</p>
-      </footer>
-
-    </div>
+      {{ content }}
 
     </body>
 </html>
