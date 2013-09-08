@@ -221,7 +221,7 @@ section#cover {
   display: block;
   margin: 0;
   padding-top: 20vh;
-  background-image: url("http://farm8.staticflickr.com/7238/7291401260_8fac131532_b.jpg");
+  background-image: url("/res/tiger.jpg");
   background-size: cover;
   background-position: center center;
   position: relative;
