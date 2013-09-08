@@ -38,6 +38,10 @@ section {
   display: block;
 }
 
+a {
+  cursor: pointer;
+}
+
 p a, p a:link, p a:visited {
   color: rgba(0,0,0,0.9);
   font-weight: bold;
