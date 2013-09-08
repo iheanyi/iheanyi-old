@@ -85,7 +85,7 @@ body {
 }
 
 footer p {
-  font-size: 0.75em;
+  font-size: 1em;
   padding-bottom: 24px;
 }
 
@@ -204,7 +204,7 @@ h3, h4, h5, h6 {
   font-weight: lighter;
 }
 
-div h3, h4, h5, h6 {
+h3, h4, h5, h6 {
   font-size: 1.25em;
 }
 
@@ -409,8 +409,18 @@ ul.nav {
   padding-bottom: 40px;
 }
 
+#contact {
+  letter-spacing: 1.5px;
+  font-size: 1.5em;
+  line-height: 1.5;
+}
+
+#contact .info {
+  font-size: 1.25em;
+}
+
 .contact-box {
-  text-align: left;
+  text-align:left ;
 }
 
 .note {
