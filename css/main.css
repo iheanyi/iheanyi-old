@@ -107,12 +107,14 @@ section.content{
 }
 
 header {
-  height: auto;
   width: 100%;
+  position: relative;
 }
 
 
 .resume {
+  clear: both;
+  reset
   display: inline-block;
   margin-right: 5vw;
   padding: 0;
@@ -128,9 +130,17 @@ a.pure-button, a.pure-button:link {
 }
 
 a.pure-button:hover {
-  background-color: white;
-  color: black;
+  -webkit-box-shadow: 7px 7px 5px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    7px 7px 5px rgba(50, 50, 50, 0.75);
+  box-shadow:         7px 7px 5px rgba(50, 50, 50, 0.75);
+  background-color: black;
   text-decoration: underline;
+  font-weight: bold;
+
+}
+
+nav {
+  padding: 36px;
 }
 
 a.pure-menu-heading {
