@@ -26,6 +26,10 @@
   font-family: 'FontAwesome', sans-serif;
 }
 
+[class*="project-"]: before {
+  line-height:0.75;
+}
+
 html, body {
   height: 100%;
 }
@@ -60,24 +64,27 @@ h1, h2 {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 }
 
+.intro h2 {
+  font-size: 3em;
+  margin: 0;
+  line-height: 0.75;
+}
+
+
 h3, h4, h5, h6 {
   font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 1.25em;
 }
 
 .email {
   width: auto;
 }
 
-/*.first {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 50vw;
-  height: 50vh;
-  margin: auto;
-}*/
+.info {
+  font-weight: lighter;
+  font-size: 1.25em;
+}
 
 section#cover {
   display: block;
@@ -90,8 +97,12 @@ section#cover {
 }
 
 strong {
+  word-wrap: break-word;
   letter-spacing: 1px;
+  line-height: 1.5;
+  margin-bottom: 8px;
   display: block;
+
 }
 
 div.title {
@@ -101,6 +112,11 @@ div.title {
   clear: both;
   float: none;
   font-size: 2.5em;
+}
+
+.pull-right {
+  clear: left;
+  float: right;
 }
 
 div.projects li {
@@ -255,7 +271,7 @@ ul.nav {
 }
 
 strong {
-  word-wrap: break-word;
+
 }
 
 /* NAVIGATION  */
