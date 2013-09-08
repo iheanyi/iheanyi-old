@@ -103,6 +103,9 @@ div.title {
   font-size: 2.5em;
 }
 
+div.projects li {
+  list-style-type: none;
+}
 
 
 div.title h1 {
@@ -199,9 +202,14 @@ header {
 }
 
 .slide {
-  padding-bottom: 40px;
+  padding-bottom: 24px;
+  min-height: 75vh;
   display: block;
   clear: both;
+  display: block;
+  position: relative;
+  clear: both;
+  float: none;
 }
 
 ul.nav {
