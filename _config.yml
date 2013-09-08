@@ -1,6 +1,9 @@
 name: Iheanyi Ekechukwu
 description: Iheanyi Ekechukwu is a Senior studying Computer Science and Graphic Design at the University of Notre Dame.
-
+analytics :
+  provider : google
+  google : 
+      tracking_id : 'UA-36709787-4'
 markdown: redcarpet
 pygments: true
 permalink: pretty
