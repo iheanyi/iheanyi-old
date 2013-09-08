@@ -198,14 +198,16 @@ h1, h2 {
   line-height: 0.75;
 }
 
+.intro h3 {
+  font-size: 1.25em;
+  line-height: 1.5;
+}
+
 
 h3, h4, h5, h6 {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-weight: lighter;
-}
-
-h3, h4, h5, h6 {
-  font-size: 1.25em;
+  font-size: 1em;
 }
 
 .email {
@@ -411,12 +413,11 @@ ul.nav {
 
 #contact {
   letter-spacing: 1.5px;
-  font-size: 1.5em;
   line-height: 1.5;
 }
 
-#contact .info {
-  font-size: 1.25em;
+#contact div.info {
+  font-size: 1.75em;
 }
 
 .contact-box {
