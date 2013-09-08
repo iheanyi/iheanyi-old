@@ -98,9 +98,9 @@ div.title {
   display: block;
   position: relative;
   text-align: center;
-  clear: none;
+  clear: both;
   float: none;
-  font-size: 3.0em;
+  font-size: 2.5em;
 }
 
 
@@ -129,7 +129,8 @@ section#about .info li {
 
 
 div.social-links {
-  margin-top: -10vh;
+  clear: left;
+  float: none;
 }
 
 .social-links > ul li a {
@@ -156,7 +157,6 @@ div.social-links {
   text-shadow: 3px 0px 3px rgba(255,248,200,1);
   color: rgba(255,248,167,0.5);
 }
-
 
 .social-links {
   width: 100%;
@@ -220,6 +220,15 @@ ul.nav {
 
 .info > ul, .posts > ul, .title > ul {
   list-style-type: none;
+}
+
+.slide h2 {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.posts {
+  text-align: left;
 }
 
 .social-links li {
