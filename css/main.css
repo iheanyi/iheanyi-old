@@ -37,6 +37,10 @@ section {
   display: block;
 }
 
+.projects ul {
+  font-weight: lighter;
+  font-size:1.25em;
+}
 body {
   background-color: #FFF;
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
@@ -72,7 +76,7 @@ h1, h2 {
 
 
 h3, h4, h5, h6 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: lighter;
   font-size: 1.25em;
 }
@@ -270,8 +274,8 @@ ul.nav {
   padding-bottom: 40px;
 }
 
-strong {
-
+.note {
+  font-size: 1.25em;
 }
 
 /* NAVIGATION  */
