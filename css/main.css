@@ -7,6 +7,7 @@
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600);
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(animate.css);
 
 
 /*****************************************************************************/
@@ -37,6 +38,20 @@ section {
   display: block;
 }
 
+p a, p a:link, p a:visited {
+  color: rgba(0,0,0,0.9);
+  font-weight: bold;
+}
+
+p a:hover {
+  color: rgba(0,0,0,0.5);
+  text-decoration: none;
+}
+
+p a:visited {
+  color: rgba(0,0,0,0.9);
+  font-weight: bold;
+}
 .projects ul {
   font-weight: lighter;
   font-size:1.25em;
