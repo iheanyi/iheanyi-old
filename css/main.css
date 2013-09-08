@@ -88,8 +88,9 @@ footer p {
   font-size: 0.75em;
   padding-bottom: 24px;
 }
+
 .wrapper {
-  width: 95vw;
+  width: 75%;
   margin: 0 auto;
   background-color: inherit;
 }
@@ -252,6 +253,7 @@ div.title {
 
 div.projects li {
   list-style-type: none;
+  text-align: left;
 }
 
 
@@ -266,6 +268,9 @@ section#about .info li {
   display: block;
 }
 
+section#about .info p {
+  text-align: left;
+}
 
 .social-links > ul li {
   display: inline-block;
@@ -356,6 +361,8 @@ header {
   clear: both;
   display: block;
   position: relative;
+  width: 100vw;
+  margin: 0 auto;
   clear: both;
   float: none;
 }
@@ -400,6 +407,10 @@ ul.nav {
   text-align: left;
   position: relative;
   padding-bottom: 40px;
+}
+
+.contact-box {
+  text-align: left;
 }
 
 .note {
