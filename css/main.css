@@ -147,31 +147,39 @@ a.pure-button:hover {
 }
 
 nav { 
-  display: inline-block;
-  width: 95;
+  width: 95vw;
   margin: 0 auto;
   padding: 24px;
 }
 
 nav > #top {
-  width: 30%;
+  width: 25vw;
   float: left;
   clear: right;
+  margin: 0 auto;
   text-align: left;
+  font-size: 1.25em;
+  font-weight: bold;
 }
 
 nav > ul.nav {
-  width: 30%;
+  width: 50vw;
   float: left;
   margin: 0 auto;
   text-align: center;
   clear: right;
 }
 
+nav > ul.nav li {
+  letter-spacing: 1px;
+  text-decoration: none;
+
+}
+
 nav > div.pull-right {
-  width: 35%;
+  width: auto;
   clear: right;
-  float: right;
+  float: left;
   text-align: center;
 }
 
@@ -193,6 +201,9 @@ h1, h2 {
 h3, h4, h5, h6 {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-weight: lighter;
+}
+
+div h3, h4, h5, h6 {
   font-size: 1.25em;
 }
 
