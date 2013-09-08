@@ -43,6 +43,9 @@ p a, p a:link, p a:visited {
   font-weight: bold;
 }
 
+p.inv {
+  font-weight: lighter;
+}
 p a:hover {
   color: rgba(0,0,0,0.5);
   text-decoration: none;
@@ -52,6 +55,22 @@ p a:visited {
   color: rgba(0,0,0,0.9);
   font-weight: bold;
 }
+
+p.inv a, p.inv a:link, p.inv a:visited {
+  color: #fff;
+  font-weight: bold;
+}
+
+p.inv a:hover {
+  color: rgba(255,255,255,0.75);
+  text-decoration: none;
+}
+
+p.inv a:visited {
+  color: #fff;
+  font-weight: bold;
+}
+
 .projects ul {
   font-weight: lighter;
   font-size:1.25em;
@@ -61,6 +80,10 @@ body {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
+footer p {
+  font-size: 0.5em;
+  padding-bottom: 16px;
+}
 .wrapper {
   width: 95vw;
   margin: 0 auto;
@@ -239,7 +262,7 @@ header {
 
 .slide {
   padding-bottom: 24px;
-  min-height: 75vh;
+  min-height: 90vh;
   display: block;
   clear: both;
   display: block;
