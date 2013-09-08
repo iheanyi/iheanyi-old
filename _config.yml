@@ -4,3 +4,8 @@ description: Iheanyi Ekechukwu is a Senior studying Computer Science and Graphic
 markdown: redcarpet
 pygments: true
 permalink: pretty
+
+analytics: 
+	provider: google
+	google:
+		track_id: 'UA-36709787-4'
