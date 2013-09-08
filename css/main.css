@@ -356,7 +356,7 @@ header {
 
 .slide, .first {
   padding-top: 40px;
-  padding-bottom: 0px;
+  padding-bottom: 16px;
   min-height: 90vh;
   clear: both;
   display: block;
