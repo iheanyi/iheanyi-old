@@ -85,8 +85,8 @@ body {
 }
 
 footer p {
-  font-size: 0.5em;
-  padding-bottom: 16px;
+  font-size: 0.75em;
+  padding-bottom: 24px;
 }
 .wrapper {
   width: 95vw;
@@ -104,6 +104,26 @@ footer p {
 section.content{
   height: 100%;
   width: 100%;
+}
+
+
+.resume {
+  float: right;
+}
+
+a.pure-button, a.pure-button:link {
+  background-color: black;
+  color: white;
+}
+
+a.pure-button:hover {
+  background-color: white;
+  color: black;
+  text-decoration: underline;
+}
+
+a.pure-menu-heading {
+  margin-right: 40vw;
 }
 
 h1, h2 {
@@ -265,9 +285,9 @@ header {
 }
 
 .slide {
-  padding-bottom: 24px;
+  padding-top: 40px;
+  padding-bottom: 0px;
   min-height: 90vh;
-  display: block;
   clear: both;
   display: block;
   position: relative;
@@ -325,26 +345,9 @@ ul.nav {
 
 .pure-menu {
     font-weight: lighter;
+    padding: 8px;
 }
-.pure-menu.pure-menu-fixed {
-    position: fixed;
-    padding: 16px;
-}
-.pure-menu.pure-menu-blackbg {
-    background: #222;
-}
+
 .pure-menu.pure-menu-blackbg, .pure-menu-heading:hover {
-    color: #efefef;
-}
-.pure-menu.pure-menu-blackbg a {
-    color: #000;
-}
-.pure-menu.pure-menu-blackbg a:hover {
-    background: #666;
-}
-.pure-menu.pure-menu-blackbg .pure-menu-selected a {
-    background: #7E45D3;
-}
-.pure-menu.pure-menu-blackbg .pure-menu-selected a:hover {
     color: #efefef;
 }
