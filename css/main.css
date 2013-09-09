@@ -48,6 +48,7 @@ p a, p a:link, p a:visited {
 p.inv {
   font-weight: lighter;
 }
+
 p a:hover {
   color: rgba(0,0,0,0.5);
   text-decoration: none;
@@ -368,7 +369,7 @@ header {
 }
 
 .slide {
-  font-size: 100%;
+  /*font-size: 100%;*/
 }
 
 ul.nav {
