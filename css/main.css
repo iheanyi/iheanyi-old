@@ -453,14 +453,17 @@ ul.nav {
     padding: 8px;
 }
 
-li > a.pure-button {
+/*li > a.pure-button {
   float: right;
   width: 100%;
-}
+}*/
 
 .pure-menu-heading:hover {
-    color: #efefef;
+    /*color: #efefef;*/
+    color: rgba(58, 128, 255, 1);
 }
+
+
 a.pure-button:visited {
   background-color: black;
   color: white;
