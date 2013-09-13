@@ -157,8 +157,9 @@ nav {
 
 nav > #top {
   width: 25vw;
+  clear: both;
   float: left;
-  clear: right;
+  position: relative;
   margin: 0 auto;
   text-align: left;
   font-size: 1.25em;
@@ -171,6 +172,7 @@ nav > ul.nav {
   margin: 0 auto;
   text-align: center;
   clear: right;
+  position: relative;
 }
 
 nav > ul.nav li {
@@ -402,8 +404,8 @@ ul.nav {
 }
 
 .slide h2, .first h2 {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .posts {
@@ -464,29 +466,30 @@ a.pure-button:visited {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 480px) {
-  
-
+@media (max-width: 800px) {
   header {
     display: block;
-    padding: 8px;
-  }
-  .first {
-    font-size: 80%;
+    clear: both;
+    min-height: auto;
+
   }
 
   nav {
-    font-size: 80%;
-    float: left;
     width: 95vw;
-    padding: 0;
-    min-height: 25vh;
+    font-size: 90%;
+    clear: both;
+    float: left;
+    display: block;
+    position: relative;
+    margin: 0 auto;
   }
 
   nav > #top {
     display: block;
-    width: 100%;
+    width: 25%;
     float: left;
+    clear: both;
+    position: relative;
     margin: 0 auto;
     text-align: left;
     font-size: 1.25em;
@@ -495,27 +498,57 @@ a.pure-button:visited {
   }
 
   nav > ul.nav {
-    display: block;
-    width: 50vw;
+    display: inline-block;
+    width: auto;
+    clear: both;
+    position: relative;
     float: left;
     margin: 0 auto;
     text-align: center;
   }
 
   .resume {
-    clear: both;
-    display: inline-block;
-    padding: 0;
     float: right;
-    height: auto;
+    clear: both;
     width: auto;
-    position: relative;
   }
 
-  .pure-menu-heading {
-    position: relative;
-    float: left;
-    width: auto;
-    margin: 0 auto;
+}
+
+@media (max-width: 480px) {
+  .first {
+    font-size: 80%;
   }
+
+  .social-links > ul {
+    font-size: 80%;
+  }
+
+  section {
+    height: auto;
+  }
+  section#cover {
+  display: block;
+  margin: 0;
+  padding-top: 20vh;
+  height: auto;
+  background-image: url("/res/tiger.jpg");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+  .slide, .first {
+  padding-top: 24px;
+  padding-bottom: 16px;
+  min-height: 100vh;
+  clear: both;
+  display: block;
+  position: relative;
+  width: 100vw;
+  margin: 0 auto;
+  clear: both;
+  float: none;
+}
+
 }
