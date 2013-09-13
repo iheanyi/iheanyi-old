@@ -555,6 +555,10 @@ a.pure-button:visited {
   width: 95%;
   margin: 0 auto;
 }
+
+.social-links ul li {
+  width: 10vw;
+}
   .slide, .first {
   padding-top: 24px;
   padding-bottom: 16px;
