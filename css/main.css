@@ -280,6 +280,10 @@ section#about .info p {
   text-align: left;
 }
 
+.social-links {
+  width: 100%;
+}
+
 .social-links > ul li {
   display: inline-block;
   text-align: center;
@@ -526,12 +530,14 @@ a.pure-button:visited {
   }
 
   .social-links > ul {
-    font-size: 80%;
+    font-size: 75%;
   }
 
   section {
     height: auto;
+    width: 100vw;
   }
+
   section#cover {
   display: block;
   margin: 0;
@@ -543,6 +549,12 @@ a.pure-button:visited {
   position: relative;
 }
 
+.social-links {
+  display: inline-block;
+  float: left;
+  width: 95%;
+  margin: 0 auto;
+}
   .slide, .first {
   padding-top: 24px;
   padding-bottom: 16px;
@@ -551,7 +563,6 @@ a.pure-button:visited {
   display: block;
   position: relative;
   width: 100vw;
-  margin: 0 auto;
   clear: both;
   float: none;
 }
