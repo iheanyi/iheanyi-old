@@ -31,11 +31,16 @@
 
 html, body {
   height: 100%;
+  width: 100%;
 }
+
 section {
   display: block;
 }
 
+.post {
+  color: white;
+}
 a {
   text-decoration: none;
   cursor: pointer;
