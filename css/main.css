@@ -67,6 +67,11 @@ p.inv {
   color: white;
 }
 
+.rssRow h2 {
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
 .black-bg p a, .black-bg p a:link, .black-bg p a:visited {
   color: white;
   font-weight:bold;
