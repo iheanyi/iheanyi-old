@@ -41,21 +41,61 @@ section {
 .post {
   color: white;
 }
+
+
+
 a {
   text-decoration: none;
   cursor: pointer;
 }
 
-p a, p a:link, p a:visited {
+p a, p a:link, p a:visited{
   color: rgba(0,0,0,0.9);
   font-weight: bold;
 }
+
+ li.rssRow a, li.rssRow a:link, li.rssRow a:visited {
+  color: white;
+  font-weight: bold;
+ }
 
 p.inv {
   font-weight: lighter;
 }
 
-p a:hover {
+.black-bg {
+  color: white;
+}
+
+.black-bg p a, .black-bg p a:link, .black-bg p a:visited {
+  color: white;
+  font-weight:bold;
+}
+
+.black-bg p a:hover {
+    color: rgba(58, 128, 255, 1);
+    text-decoration: none;
+}
+
+.black-bg p {
+  font-weight: lighter;
+}
+
+.blog_note {
+  font-size: 2.0em
+}
+
+li.rssRow {
+  font-size: 1.50em;
+  border-bottom: 1px solid white;
+  padding: 5px;
+}
+
+li.rssRow:last-child {
+  border-bottom: none;
+}
+
+p a:hover, li.rssRow a:hover {
   /*color: rgba(0,0,0,0.5);*/
   color: rgba(58, 128, 255, 1);
   text-decoration: none;
@@ -64,6 +104,15 @@ p a:hover {
 p a:visited {
   color: rgba(0,0,0,0.9);
   font-weight: bold;
+}
+
+.rssRow h2 {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.rssRow p {
+  font-weight: lighter;
 }
 
 p.inv a, p.inv a:link, p.inv a:visited {
@@ -88,6 +137,10 @@ p.inv a:hover, p a:hover {
 }
 body {
   background-color: #FFF;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+p {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
@@ -410,8 +463,11 @@ ul.nav {
   color: #fff;
 }
 
-.info > ul, .posts > ul, .title > ul {
+.info > ul, .posts > ul, .title > ul, .rssBody > ul {
   list-style-type: none;
+}
+
+.rssBody {
 }
 
 .slide h2, .first h2 {
