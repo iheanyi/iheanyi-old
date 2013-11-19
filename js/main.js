@@ -23,7 +23,7 @@ $( document ).ready(function() {
     $('.posts').rssfeed('http://blog.iheanyi.com/rss/', {
         limit: 5,
         header: false,
-        titletag: 'h2',
+        titletag: 'h3',
         dateformat: 'date'
     });
 
